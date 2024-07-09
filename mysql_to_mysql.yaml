@@ -1,0 +1,17 @@
+in:
+  type: mysql
+  host: {{ env.SRC_HOST }}
+  port: {{ env.SRC_PORT }}
+  user: user
+  password: password
+  database: app
+  table: users
+out:
+  type: mysql
+  host: {{ env.DST_HOST }}
+  port: {{ env.DST_PORT }}
+  user: user
+  password: password
+  database: app
+  table: users
+  mode: insert
