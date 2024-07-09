@@ -1,3 +1,4 @@
+# Gemfile 使いたいけどなんか動かんので諦めたけど、一応残しておく
 source 'https://rubygems.org/'
 
 gem 'embulk', '0.11.4'
